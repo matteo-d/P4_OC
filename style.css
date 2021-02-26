@@ -12,7 +12,6 @@ a.social {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
 }
 
 a:hover {
@@ -462,10 +461,6 @@ btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero {
 .btn-d:focus {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
-}
-
-button {
-  outline: none !important;
 }
 
 .btn-rd {
