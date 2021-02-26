@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+a.social {
+  color: black;
+}
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -658,11 +660,10 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
   font-family: "helvetica";
   font-weight: 400;
-  color: #222121 !important;
+  color: #575757 !important;
 }
 
 .container {
@@ -711,7 +712,6 @@ p {
 }
 
 .social {
- 
   margin: auto auto auto auto;
 }
 
