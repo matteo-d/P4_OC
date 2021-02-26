@@ -9,15 +9,6 @@
                          Action recommandée:
                               Référence: 
 
-- Navigation au clavier
-     Accessibilité
-          PB identifié:
-               Explication:
-                    Bonne pratique à suivre:
-                         Action recommandée:
-                              Référence: 
-
-
 - Créez des tests d'accessibilité (faire tous les test suivants a la fin des modifs on-page Chrome:
                                 
                                 -Wave Evaluation Tool (vérificateur d'accessibilité automatisé) ;
@@ -34,13 +25,7 @@
 
 ------------------------------------------------------------------------------------------------CATEGORIE SEO :------------------------------------------------------------------------------------------------------
 
-- Selectionnés des mots grâce à l'outil Answer the public et utilisé les mots clefs dans le contenu html
-       SEO
-          PB identifié:
-               Explication:
-                    Bonne pratique à suivre:
-                         Action recommandée:
-                              Référence: 
+
 
 
 - W3C validator
@@ -105,7 +90,7 @@ CATEGORIE FAIRE A LA FIN :
                               Référence: https://developer.mozilla.org/fr/docs/Web/HTML/Element
 
 
-- Responsive
+- Responsive OK
       SEO
           PB identifié: Site non responsive
                Explication: Le certaines parties du site ne sont pas lisible, au niveau des images représentant du texte.
@@ -150,6 +135,15 @@ CATEGORIE FAIRE A LA FIN :
 
 - Optimisez le nom et l'URL de vos pages OK
      SEO
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+
+- Navigation au clavier OK
+     Accessibilité
           PB identifié:
                Explication:
                     Bonne pratique à suivre:
