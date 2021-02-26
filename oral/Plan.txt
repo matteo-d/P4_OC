@@ -1,12 +1,5 @@
-CATEGORIE ACCESSIBILITE : 
+------------------------------------------------------------------------------------------CATEGORIE ACCESSIBILITE :-------------------------------------------------------------------------------------------------- 
 
-- alt image OK
-     Accessibilité et SEO,
-          PB identifié : Le alt qui accompagne le img du site est utilisé de la mauvaise manière 9 fois sur la page principale et 1 fois sur la page contact.
-               Explication: Ici l'attribut alt est utilisé comme un emplacement à keyword alors que cet attribut sert à la fois pour le SEO, les robots de G crawl les alt, et pour l'accessibilité. Sa valeur est supposée être un descriptif sous forme de texte de l'image, à utiliser dans les cas où l'image ne peut être affichée.
-                    Bonne pratique à suivre : Suivre les recommendation MDN, utilisé la balise alt pour ce qu'elle est faite.
-                         Action recommandée: Modifié toutes les balises alt en suivant ces recommendations 
-                              Référence: https://developer.mozilla.org/fr/docs/Apprendre/HTML/Multimedia_and_embedding/Images_in_HTML
 
 - Fournissez de l'aide pour les formulaires
      Accessibilité:
@@ -24,41 +17,23 @@ CATEGORIE ACCESSIBILITE :
                          Action recommandée:
                               Référence: 
 
-- Testez s'il prend correctement en charge la restitution alternative à l'aide d'un lecteur d'écran.
-Les lecteurs d'écran peuvent être utilisés à la fois sur les appareils fixes et mobiles
-     Accessibilité
-          PB identifié:
-               Explication:
-                    Bonne pratique à suivre:
-                         Action recommandée:
-                              Référence: 
 
 - Créez des tests d'accessibilité (faire tous les test suivants a la fin des modifs on-page Chrome:
+                                
                                 -Wave Evaluation Tool (vérificateur d'accessibilité automatisé) ;
+                                
+                                
                                 -aXe (vérificateur d'accessibilité automatisé) ;
+                               
+                               
                                 -HeadingsMap.
-                                -TPG Colour Contrast Analyser.
+                                
+                                
                                 -Lecteur d'écran NVDA (utilisateurs de PC uniquement).  
-                                 -Utilisez les outils de test automatisés ci-dessus
-                                            Explication comment utiliser ces outils et screenshot 
+                                
 
-- Tester grâce à l’outil “Test d’optimisation mobile” de Google.
-     Accessibilité
-          PB identifié:
-               Explication:
-                    Bonne pratique à suivre:
-                         Action recommandée:
-                              Référence: 
+------------------------------------------------------------------------------------------------CATEGORIE SEO :------------------------------------------------------------------------------------------------------
 
-CATEGORIE SEO :
-
-- Structure HTML 
-      SEO
-          PB identifié: Que des divs pour structurer le site
-               Explication: Si le document est structuré en plusieurs parties distinctes il faut utiliser les balises html associé
-                    Bonne pratique à suivre: Si l'élément représente visuellement un footer on utilise la balsie footer, si header pareil, si section pareil si 
-                         Action recommandée: Restructure le doc 
-                              Référence: 
 
 - Selectionnés des mots grâce à l'outil Answer the public et utilisé les mots clefs dans le contenu html
        SEO
@@ -76,13 +51,6 @@ CATEGORIE SEO :
                          Action recommandée:
                               Référence: 
 
-- Optimisez vos balise méta OK
-      SEO
-          PB identifié: Balise méta mal utilisés
-               Explication: 3 fois utilisation meta name alors que dispensable, attributs keyword et description mal utilisés, 
-                    Bonne pratique à suivre: Suivre les recommendation mdn
-                         Action recommandée: se dispenser de l'attribut name. utiliser l'attribut keyword comme liste de mots clefs pertinents et relatifs au contenu de la page. utliser l'attribut description comme un résumé concis et pertinent du contenu de la page.
-                              Référence: https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta 
 
 - Adaptez la taille de vos images à leur contenant 
      SEO
@@ -90,24 +58,17 @@ CATEGORIE SEO :
                Explication:
                     Bonne pratique à suivre:
                          Action recommandée:
-                              Référence: 
+                              Référence: https://fr.wix.com/blog/2019/08/08/creer-favicon/#:~:text=Taille%20%3A%20la%20taille%20optimale%20d,le%20JPEG%20ou%20le%20PNG.
+                                         
 
 - Compressez vos images avec  ImageOptim, PNGgauntlet, ou via des sites web comme https://compressor.io/.
       SEO
-          PB identifié:
-               Explication:
-                    Bonne pratique à suivre:
+          PB identifié: Image trop lourde ralentissant la vitesse de chargement de la page et donc sont référencement
+               Explication: Favicon en 32x32 au lieu de 16x16, photo en .bmp format dépassé, photo non compressées.
+                    Bonne pratique à suivre: Utilisé le meilleur format pour chaque image selon contexte, otpimiser sa taille en px, la compressé
                          Action recommandée:
                               Référence: 
 
-
-- Responsive
-      SEO
-          PB identifié: Site non responsive
-               Explication: Le certaines parties du site ne sont pas lisible, au niveau des images représentant du texte.
-                    Bonne pratique à suivre: Remplacer les images représentant du texte par du texte pur
-                         Action recommandée: Création d'élément textuels à la place d'image qui bloquaient le responsive petit ecran + utiliser des balise h pour ce faire
-                              Référence: Mes yeux 
 
 - W3C validator
       SEO
@@ -127,11 +88,18 @@ CATEGORIE SEO :
 
 
 
-CATEGORIE OUTILS TEST / SUIVI / OPPORTUNITE : 
+--------------------------------------------------------------------------------------------CATEGORIE OUTILS TEST / SUIVI / OPPORTUNITE ----------------------------------------------------------------------------- 
+
+
+- Tester grâce à l’outil “Test d’optimisation mobile” de Google.
+     Accessibilité
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
 
 - Installer Google Analitycs et Google Search Console pour faire une démo et / ou trouvez des screenshot et expliquer l'utilité d'installer ses outils à l'avenir pour l'Entreprise pour suivre l'evolution de leur traffic etc...  
-
-- Trouvez des exemples entreprises ou influenceurs réels qui pourrait devenir partenaire et générer des liens externes de qualité.
 
 - Utilisez la fonction “explorer comme Google” de la Search Console
 
@@ -144,4 +112,39 @@ CATEGORIE FAIRE A LA FIN :
 - Implémenter cette checklist https://www.matthieu-tranvan.fr/referencement-naturel/checklist-seo-25-bonnes-pratiques-on-site-pour-renforcer-votre-referencement-naturel.html
 
 
+
+------------------------------------------------------------------------------------------- DONE ----------------------------------------------------------------------------------------------------------------------
+
+- alt image OK
+     Accessibilité et SEO,
+          PB identifié : Le alt qui accompagne le img du site est utilisé de la mauvaise manière 9 fois sur la page principale et 1 fois sur la page contact.
+               Explication: Ici l'attribut alt est utilisé comme un emplacement à keyword alors que cet attribut sert à la fois pour le SEO, les robots de G crawl les alt, et pour l'accessibilité. Sa valeur est supposée être un descriptif sous forme de texte de l'image, à utiliser dans les cas où l'image ne peut être affichée.
+                    Bonne pratique à suivre : Suivre les recommendation MDN, utilisé la balise alt pour ce qu'elle est faite.
+                         Action recommandée: Modifié toutes les balises alt en suivant ces recommendations 
+                              Référence: https://developer.mozilla.org/fr/docs/Apprendre/HTML/Multimedia_and_embedding/Images_in_HTML
+
+- Structure HTML 
+      SEO
+          PB identifié: Que des divs pour structurer le site
+               Explication: Si le document est structuré en plusieurs parties distinctes il faut utiliser les balises html 
+                    Bonne pratique à suivre: Si l'élément représente visuellement un footer on utilise la balsie footer, si header pareil, si section pareil si 
+                         Action recommandée: Restructure le doc 
+                              Référence: https://developer.mozilla.org/fr/docs/Web/HTML/Element
+
+
+- Responsive
+      SEO
+          PB identifié: Site non responsive
+               Explication: Le certaines parties du site ne sont pas lisible, au niveau des images représentant du texte.
+                    Bonne pratique à suivre: Remplacer les images représentant du texte par du texte pur
+                         Action recommandée: Création d'élément textuels à la place d'image qui bloquaient le responsive petit ecran + utiliser des balise h pour ce faire
+                              Référence: Mes yeux 
+
+- Optimisez vos balise méta OK
+      SEO
+          PB identifié: Balise méta mal utilisés
+               Explication: 3 fois utilisation meta name alors que dispensable, attributs keyword et description mal utilisés, 
+                    Bonne pratique à suivre: Suivre les recommendation mdn
+                         Action recommandée: se dispenser de l'attribut name. utiliser l'attribut keyword comme liste de mots clefs pertinents et relatifs au contenu de la page. utliser l'attribut description comme un résumé concis et pertinent du contenu de la page.
+                              Référence: https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta 
 

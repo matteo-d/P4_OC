@@ -439,7 +439,9 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
+btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero {
+    color: red;
+}
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -692,7 +694,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -736,7 +738,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #1C1C1C!important;
 }
 
 .portfolio-thumb {
@@ -775,12 +777,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F9DBCD!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #913003;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -824,7 +826,13 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+h6 {
+    font-size: 1.5rem;
+    
+}
+li a {
+    color: #1A1A1A !important;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
