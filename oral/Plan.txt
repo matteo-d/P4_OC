@@ -8,6 +8,8 @@
                          Action recommandée:
                               Référence: 
 
+
+
 - Créez des tests d'accessibilité (faire tous les test suivants a la fin des modifs on-page Chrome:
                                 
                                 -Wave Evaluation Tool (vérificateur d'accessibilité automatisé) ;
@@ -24,7 +26,13 @@
 
 ------------------------------------------------------------------------------------------------CATEGORIE SEO :------------------------------------------------------------------------------------------------------
 
-
+- erreur 404 
+     SEO 
+      PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
 
 
 - W3C validator
@@ -34,6 +42,7 @@
                     Bonne pratique à suivre:
                          Action recommandée:
                               Référence: 
+
 
 - Minifiez vos fichiers CSS et JavaScript avec  https://www.minifier.org/ ou http://compressmycode.com. et compression CSS avec!!!!!! Gzip!!!!!!
        SEO
@@ -100,7 +109,7 @@ CATEGORIE FAIRE A LA FIN :
 - Optimisez vos balise méta OK
       SEO
           PB identifié: Balise méta mal utilisés
-               Explication: 3 fois utilisation meta name alors que dispensable, attributs keyword et description mal utilisés, 
+               Explication:  
                     Bonne pratique à suivre: Suivre les recommendation mdn
                          Action recommandée: se dispenser de l'attribut name. utiliser l'attribut keyword comme liste de mots clefs pertinents et relatifs au contenu de la page. utliser l'attribut description comme un résumé concis et pertinent du contenu de la page.
                               Référence: https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta 
@@ -126,8 +135,8 @@ CATEGORIE FAIRE A LA FIN :
 - Compressez vos images avec  ImageOptim, PNGgauntlet, ou via des sites web comme https://compressor.io/. OK
       SEO
           PB identifié: Image trop lourde ralentissant la vitesse de chargement de la page et donc sont référencement
-               Explication: Favicon en 32x32 au lieu de 16x16, photo en .bmp format dépassé, photo non compressées.
-                    Bonne pratique à suivre: Utilisé le meilleur format pour chaque image selon contexte, otpimiser sa taille en px, la compressé
+               Explication: Favicon en 32x32 au lieu de 16x16, img en .bmp format dépassé, photo non compressées, photos trop grande par rapport à leur contenant .
+                    Bonne pratique à suivre: Utilisé le meilleur format pour chaque image selon contexte, otpimiser sa taille, la compressé
                          Action recommandée:
                               Référence: 
 
