@@ -25,7 +25,22 @@
                                 
 
 ------------------------------------------------------------------------------------------------CATEGORIE SEO :------------------------------------------------------------------------------------------------------
+-sitemapXML:
+     SEO 
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
 
+
+-Title
+     SEO 
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
 - erreur 404 
      SEO 
       PB identifié:
