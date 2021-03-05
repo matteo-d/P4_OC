@@ -25,6 +25,8 @@
                                 
 
 ------------------------------------------------------------------------------------------------CATEGORIE SEO :------------------------------------------------------------------------------------------------------
+Reste a faire : 
+
 -sitemapXML:
      SEO 
           PB identifié:
@@ -49,6 +51,13 @@
                          Action recommandée:
                               Référence: 
 
+- Pre rendering
+      SEO 
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
 
 - W3C validator
       SEO
