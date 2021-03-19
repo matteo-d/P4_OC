@@ -8,13 +8,18 @@
 
 
 <url>
-  <loc>https://matteo-d.github.io/P4_OpenClassroom/index.html</loc>
-  <lastmod>2021-03-03T12:46:41+00:00</lastmod>
+  <loc>https://matteo-d.github.io/P4_OpenClassroom/</loc>
+  <lastmod>2021-03-19T12:12:42+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://matteo-d.github.io/P4_OpenClassroom/index.html</loc>
+  <lastmod>2021-03-19T12:12:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://matteo-d.github.io/P4_OpenClassroom/contact.html</loc>
-  <lastmod>2021-03-03T12:46:41+00:00</lastmod>
+  <lastmod>2021-03-19T12:12:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
