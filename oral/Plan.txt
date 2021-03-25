@@ -1,0 +1,184 @@
+------------------------------------------------------------------------------------------CATEGORIE ACCESSIBILITE :-------------------------------------------------------------------------------------------------- 
+
+- Fournissez de l'aide pour les formulaires
+     Accessibilité:
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+
+
+- Créez des tests d'accessibilité (faire tous les test suivants a la fin des modifs on-page Chrome:
+                                
+                                -Wave Evaluation Tool (vérificateur d'accessibilité automatisé) ;
+                                        
+                                
+                                -aXe (vérificateur d'accessibilité automatisé) ;
+                               
+                               
+                                -HeadingsMap.
+                                
+                                
+                                -Lecteur d'écran NVDA (utilisateurs de PC uniquement).  
+                                
+
+------------------------------------------------------------------------------------------------CATEGORIE SEO :------------------------------------------------------------------------------------------------------
+Reste a faire : 
+- alt image OK
+     Accessibilité et SEO,
+          PB identifié : Le alt qui accompagne le img du site est utilisé de la mauvaise manière 9 fois sur la page principale et 1 fois sur la page contact.
+               Explication: Ici l'attribut alt est utilisé comme un emplacement à keyword alors que cet attribut sert à la fois pour le SEO, les robots de G crawl les alt, et pour l'accessibilité. Sa valeur est supposée être un descriptif sous forme de texte de l'image, à utiliser dans les cas où l'image ne peut être affichée.
+                    Bonne pratique à suivre : Suivre les recommendation MDN, utilisé la balise alt pour ce qu'elle est faite.
+                         Action recommandée: Modifié toutes les balises alt en suivant ces recommendations 
+                              Référence: https://developer.mozilla.org/fr/docs/Apprendre/HTML/Multimedia_and_embedding/Images_in_HTML
+
+- Structure HTML 
+      SEO
+          PB identifié: Que des divs pour structurer le site
+               Explication: Si le document est structuré en plusieurs parties distinctes il faut utiliser les balises html 
+                    Bonne pratique à suivre: Si l'élément représente visuellement un footer on utilise la balsie footer, si header pareil, si section pareil si 
+                         Action recommandée: Restructure le doc 
+                              Référence: https://developer.mozilla.org/fr/docs/Web/HTML/Element
+
+
+- Responsive OK
+      SEO
+          PB identifié: Site non responsive
+               Explication: Le certaines parties du site ne sont pas lisible, au niveau des images représentant du texte.
+                    Bonne pratique à suivre: Remplacer les images représentant du texte par du texte pur
+                         Action recommandée: Création d'élément textuels à la place d'image qui bloquaient le responsive petit ecran + utiliser des balise h pour ce faire
+                              Référence: Mes yeux 
+
+- Optimisez vos balise méta OK
+      SEO
+          PB identifié: Balise méta mal utilisés
+               Explication:  
+                    Bonne pratique à suivre: Suivre les recommendation mdn
+                         Action recommandée: se dispenser de l'attribut name. utiliser l'attribut keyword comme liste de mots clefs pertinents et relatifs au contenu de la page. utliser l'attribut description comme un résumé concis et pertinent du contenu de la page.
+                              Référence: https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta 
+
+- Contraste texte / background OK
+    Accessibilite 
+        PB 
+            Explication 
+                Bonne pratique
+                    Action
+                        Référence : Wave Evaluation Tool
+
+ - Adaptez la taille de vos images à leur contenant  OK
+     SEO
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: https://fr.wix.com/blog/2019/08/08/creer-favicon/#:~:text=Taille%20%3A%20la%20taille%20optimale%20d,le%20JPEG%20ou%20le%20PNG.
+                                         
+
+
+- Compressez vos images avec  ImageOptim, PNGgauntlet, ou via des sites web comme https://compressor.io/. OK
+      SEO
+          PB identifié: Image trop lourde ralentissant la vitesse de chargement de la page et donc sont référencement
+               Explication: Favicon en 32x32 au lieu de 16x16, img en .bmp format dépassé, photo non compressées, photos trop grande par rapport à leur contenant .
+                    Bonne pratique à suivre: Utilisé le meilleur format pour chaque image selon contexte, otpimiser sa taille, la compressé
+                         Action recommandée:
+                              Référence: 
+
+
+- Optimisez le nom et l'URL de vos pages OK
+     SEO
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+
+- Navigation au clavier OK
+     Accessibilité
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+
+-sitemapXML:
+     SEO 
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+
+-Title
+     SEO 
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+- erreur 404 
+     SEO 
+      PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+- Pre rendering
+      SEO 
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+- W3C validator
+      SEO
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+
+- Minifiez vos fichiers CSS et JavaScript avec  https://www.minifier.org/ ou http://compressmycode.com. et compression CSS avec!!!!!! Gzip!!!!!!
+       SEO
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+
+
+--------CATEGORIE OUTILS TEST / SUIVI / OPPORTUNITE ----------------------------------------------------------------------------- 
+
+
+- Tester grâce à l’outil “Test d’optimisation mobile” de Google.
+     Accessibilité
+          PB identifié:
+               Explication:
+                    Bonne pratique à suivre:
+                         Action recommandée:
+                              Référence: 
+
+- Installer Google Analitycs et Google Search Console pour faire une démo et / ou trouvez des screenshot et expliquer l'utilité d'installer ses outils à l'avenir pour l'Entreprise pour suivre l'evolution de leur traffic etc...  
+
+- Utilisez la fonction “explorer comme Google” de la Search Console
+
+- Mettre en place un pre-rendering pour optimiser l'expérience des bots google
+
+CATEGORIE FAIRE A LA FIN : 
+
+- Implémenter cette checklist https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/Checklist_accessibilite_mobile
+
+- Implémenter cette checklist https://www.matthieu-tranvan.fr/referencement-naturel/checklist-seo-25-bonnes-pratiques-on-site-pour-renforcer-votre-referencement-naturel.html
+
+
+
+------------------------------------------------------------------------------------------- DONE ----------------------------------------------------------------------------------------------------------------------
+
