@@ -1,0 +1,19 @@
+{
+  "name": "p4_drouin_matteo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteo-d/P4_OpenClassroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matteo-d/P4_OpenClassroom/issues"
+  },
+  "homepage": "https://github.com/matteo-d/P4_OpenClassroom#readme"
+}
