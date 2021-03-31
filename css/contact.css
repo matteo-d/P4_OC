@@ -852,7 +852,6 @@ li a {
   .b-parallax {
     background-attachment: scroll;
   }
-  
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1018,7 +1017,7 @@ li a {
     display: inline-block;
   }
   .blocsapp-device-iphone5 {
-    background-size: 216px 425px; 
+    background-size: 216px 425px;
     padding-top: 60px;
     width: 216px;
     height: 425px;
