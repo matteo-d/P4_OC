@@ -44,10 +44,8 @@ a:hover {
 color: rgb(15, 21, 21)
 }
 
-#h_contact {
 
-color:  red;
-}
+
 #column {
   display: flex;
 flex-direction: column;}
