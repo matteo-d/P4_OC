@@ -40,7 +40,17 @@ a:hover {
   background-size: cover;
   position: relative;
 }
+#p_contact {
+color: rgb(15, 21, 21)
+}
 
+#h_contact {
+
+color:  red;
+}
+#column {
+  display: flex;
+flex-direction: column;}
 .bloc .container {
   padding-left: 0;
   padding-right: 0;
@@ -654,7 +664,7 @@ label,
 .btn {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
 }
 
 .container {
@@ -778,7 +788,7 @@ h4 {
 }
 
 .tc-white {
-  color: #f9dbcd !important;
+  color: #f9dbcd ;
 }
 
 .btn-atomic-tangerine {
