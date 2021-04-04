@@ -740,7 +740,11 @@ h1 {
 }
 
 h4 {
-  color: #333333 !important;
+  color: #333333 ;
+}
+
+#blop {
+  color: #f9dbcd !important;
 }
 
 .icons {
